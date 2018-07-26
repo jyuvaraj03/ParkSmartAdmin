@@ -1,0 +1,68 @@
+[debug] [2018-07-26T17:05:44.639Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T17:05:44.641Z] Command:       /home/jyuvaraj03/.nvm/versions/node/v10.7.0/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2018-07-26T17:05:44.641Z] CLI Version:   4.0.0
+[debug] [2018-07-26T17:05:44.641Z] Platform:      linux
+[debug] [2018-07-26T17:05:44.641Z] Node Version:  v10.7.0
+[debug] [2018-07-26T17:05:44.641Z] Time:          Thu Jul 26 2018 22:35:44 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T17:05:44.641Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T17:05:44.648Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T17:05:44.648Z] > authorizing via signed-in user
+[debug] [2018-07-26T17:05:44.650Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-26T17:05:44.650Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/q0H4YZ9kHi4rfOXypGeH8KBFTWN0l5JD2bjkJLX9STs',
+  client_id:
+   '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope:
+   'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jul 26 2018 22:35:44 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T17:05:45.491Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T17:05:45.549Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/parksmart-7e9ef  
+  
+ Thu Jul 26 2018 22:35:45 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T17:05:47.331Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T17:05:47.333Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/parksmart-7e9ef/tokens  
+  
+ Thu Jul 26 2018 22:35:47 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T17:05:48.468Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T17:05:48.471Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/parksmart-7e9ef  
+  
+ Thu Jul 26 2018 22:35:48 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T17:05:50.830Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/jyuvaraj03'...
+[info] 
+[debug] [2018-07-26T17:05:50.833Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/708136015738/clients/_:getWebAppConfig  
+  
+ Thu Jul 26 2018 22:35:50 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T17:05:51.787Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-07-26T17:05:51.801Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/708136015738/clients/_:getWebAppConfig  
+  
+ Thu Jul 26 2018 22:35:51 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T17:05:53.392Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5004 is not available. Trying another port...
+[debug] [2018-07-26T17:05:53.400Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/708136015738/clients/_:getWebAppConfig  
+  
+ Thu Jul 26 2018 22:35:53 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T17:05:55.319Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5008 is not available. Trying another port...
+[debug] [2018-07-26T17:05:55.327Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/708136015738/clients/_:getWebAppConfig  
+  
+ Thu Jul 26 2018 22:35:55 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T17:05:56.909Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5012 is not available. Trying another port...
+[debug] [2018-07-26T17:05:56.913Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/708136015738/clients/_:getWebAppConfig  
+  
+ Thu Jul 26 2018 22:35:56 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T17:05:57.870Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5016 is not available. Trying another port...
+[debug] [2018-07-26T17:05:57.873Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/708136015738/clients/_:getWebAppConfig  
+  
+ Thu Jul 26 2018 22:35:57 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T17:05:59.790Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ParkSmart
+[info] ✔  hosting: Local server: http://localhost:5020
+
